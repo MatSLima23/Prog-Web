@@ -1,11 +1,12 @@
 body{
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .container{
     background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/4519287-fundo-gradiente-roxo-e-azul-gratis-foto.jpg);
     background-size: cover;
-    height: 700px;
+    height: 885px;
     padding: 20px;
 }
 .container h2{
@@ -40,4 +41,16 @@ h3{
 
 h4{
     text-align: center;
+}
+
+.caixa{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.botao1{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    width: 100px;
+    align-content: center;
 }
