@@ -57,7 +57,7 @@ h4{
 }
 
 .aviso{
-    color: white;
+    color: red;
     text-align: center;
 }
 
@@ -67,5 +67,10 @@ div i{
 
     position: absolute;
     left: 56%;
-    bottom: 595px;
+    bottom: 565px;
+}
+
+.titulo{
+    color: green;
+    font-size: 35px;
 }

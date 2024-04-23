@@ -14,13 +14,14 @@ h1{
 .caixa{
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
-
+    text-align: center;
 }
 
 .caixacpf{
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
     width: 110px;
+    text-align: center;
 }
 
 .container{
@@ -32,6 +33,7 @@ h1{
 
 .textos{
     background-color: white;
+    padding: 0 2%;
 }
 
 .botao1{
@@ -43,4 +45,11 @@ h1{
 .titulo{
     color: green;
     font-size: 35px;
+}
+
+.caixacidade{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+    text-align: center;
 }
