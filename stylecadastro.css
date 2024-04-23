@@ -23,20 +23,6 @@ h1{
     width: 110px;
 }
 
-.caixafone{
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px black;
-    width: 110px;
-    
-}
-
-.caixamail{
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px black;
-    width: 250px;
-    text-align: center;
-}
-
 .container{
     background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/4519287-fundo-gradiente-roxo-e-azul-gratis-foto.jpg);
     background-size: cover;
@@ -57,12 +43,4 @@ h1{
 .titulo{
     color: green;
     font-size: 35px;
-}
-
-fieldset i{
-    font-size: 20px;
-    cursor: pointer;
-
-    position: absolute;
-    left: 20%;
 }
