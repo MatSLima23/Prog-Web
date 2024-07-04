@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Torna este elemento posicionado em relação ao elemento pai */
+    overflow: hidden; /* Evita rolagem desnecessária */
+}
+
+body {
+    background-image: url('./Imagens/caminhao_proquill.jpg'); 
+   
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255); /* Fundo branco com transparência */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    z-index: 1; /* Coloca este elemento na frente do plano de fundo */
+    position: relative; /* Certifica que este elemento é posicionado em relação ao seu pai */
+    top: 100px;
+}
+
+.titulo {
+    color: #4CAF50; /* Cor verde para o título */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #45a049; 
+}

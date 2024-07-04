@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2; /* Cor de fundo */
+}
+
+.container {
+    text-align: center;
+}
+
+.retangulo {
+    background-color: #ffffff; /* Cor de fundo do retângulo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.titulo {
+    color: #4CAF50; /* Cor verde para o título */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.caixa {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botao1 {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao1:hover {
+    background-color: #45a049; 
+}
+
+.aviso {
+    color: #888888;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.whatsapp {
+    background-color: #25D366; /* Cor verde do WhatsApp */
+}
+
+.whatsapp:hover {
+    background-color: #128C7E; /* Cor escura do WhatsApp ao passar o mouse */
+}
+
+.bi-whatsapp:before {
+    content: "\f232"; /* Ícone do WhatsApp */
+    font-family: "bootstrap-icons"; /* Fonte do Bootstrap Icons */
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
